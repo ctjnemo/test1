@@ -56,7 +56,7 @@ public class NewClassTest {
         System.out.println("somme");
         int valeur1 = 1;
         int valeur2 = 7;
-        int expResult = 9;
+        int expResult = 8;
         int result = NewClass.somme(valeur1, valeur2);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
@@ -82,7 +82,7 @@ public class NewClassTest {
         System.out.println("difference");
         int valeur1 = 9;
         int valeur2 = 3;
-        int expResult = 86;
+        int expResult = 6;
         int result = NewClass.difference(valeur1, valeur2);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
